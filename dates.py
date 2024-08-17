@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Check if a month argument is provided
 if len(sys.argv) != 2:
-    print("Usage: python script.py <month>")
+    print("Usage: python dates.py <month>")
     sys.exit(1)
 
 month_arg = sys.argv[1]
